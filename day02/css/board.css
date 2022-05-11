@@ -1,0 +1,14 @@
+nav a{
+            text-decoration: none;
+            color: #000;
+}
+table{
+    border: 3px solid #019701;
+    border-collapse: collapse;
+    width: 500px;
+    height: 80px;
+}
+th, td{
+    border: 1px solid #019701;
+    text-align: center;
+}
