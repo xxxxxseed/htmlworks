@@ -1,7 +1,17 @@
+#container{
+    width: 800px;
+    margin: 20px auto;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* 메뉴 스타일 */
 nav a{
     text-decoration: none;
     color: #000;
 }
+
+/* 질문/답변 스타일 */
 table{
 border: 3px solid #019701;
 border-collapse: collapse;
