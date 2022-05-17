@@ -11,6 +11,11 @@ nav a{
     text-decoration: none;
     color: #000;
 }
+#main{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+}
 
 /* 레드향 소개 스타일 */
 div{
@@ -19,65 +24,33 @@ div{
     padding: 20px;
     margin-bottom: 30px;
 }
-
-#login table{
-    border: 3px solid #019701;
-    border-collapse: collapse;
-    width: 500px;
-    height: 80px;
-    }
-#login tr, td{
-    border: 1px solid #019701;
-    text-align: center;
-}
-#login{
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-}
-
-#main{
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    text-align: center;
-}
-#board{
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    text-align: center;
-}
-
 #description{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    text-align: center;
 }
 #package{
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    text-align: center;
 }
 #tbl_package{
-    width: 500px;
+    width: 400px;
     border-collapse: collapse;
-    margin: 0 auto;
 }
 #tbl_package th, #tbl_package td{
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
-
 }
-#login{
-    text-align: center;
-}
-
 /* 질문/답변 스타일 */
+#board{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
 #tbl_board{
 border: 3px solid #019701;
 border-collapse: collapse;
 width: 500px;
 height: 80px;
-margin: 0 auto;
 }
 #tbl_board th, #tbl_board td{
 border: 1px solid #019701;
@@ -85,11 +58,19 @@ text-align: center;
 }
 
 /* 로그인 스타일 */
+#login{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+
 .tbl_login{
     width: 300px;
-    margin: 0 auto;
+    border-collapse: collapse;
 }
 .tbl_login td{
     width: 150px;
     height: 30px;
+    border: 1px solid #333;
+    text-align: center;
 }
