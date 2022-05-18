@@ -1,6 +1,6 @@
 *{margin: 0; padding: 0;}
 #container{width: 100%; margin: 0 auto;}
-main{width: 1000px; margin: 30px auto;}
+main{width: 1000px; margin: 50px auto;}
 
 /* header 영역 */
 header{height: 80px; background: rgb(1, 63, 1);}
@@ -18,9 +18,11 @@ nav{width: 800px; float: right;}
 #healing, #activity{margin: 30px 10px;}
 #contents h2{margin-bottom: 20px;}
 #contents p{line-height: 2em;}
-#contents img, #activity img{float: left; margin-right: 20px;
+#healing img, #activity img{float: left; margin-right: 20px;
     border-radius: 20px;}
 #healing, #activity{height: 300px;}
+#healing .schedule ul li{list-style: none; margin: 0 5px;}
+#healing h3{margin: 20px 0 10px;}
 #sightseeing ul li{margin: 10px 30px;}
 #sightseeing ul li a{text-decoration: none;}
 
